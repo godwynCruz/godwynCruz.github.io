@@ -1,4 +1,6 @@
 let sections = document.querySelectorAll('section')
+const filled = document.querySelector('.filled')
+
 
 window.onscroll = () => {
     sections.forEach(sec => {
@@ -13,3 +15,9 @@ window.onscroll = () => {
         }
     })
 }
+
+function update () {
+    filled.style.width = `${((window.scrollY) / (document.body.scrollHeight - window.innerHeight) * 100)}%`
+    requestAnimationFrame(update);
+}
+update();
