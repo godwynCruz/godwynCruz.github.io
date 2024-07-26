@@ -9,37 +9,48 @@
     
 </head>
 <body>
+    <div class="navbar">
+        <a href="#about">About me</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact_me">Contact</a>
+    </div>
+
     <div class="progress_bar">
         <div class="filled"></div>
     </div>
+
     <section class="first_section show_animate">
         <h1 class="animate">Hi I am Wyn! 👋🏻</h1>
-        <p class="animate">Animation</p>
     </section>
 
-    <section class="second_section">
-        <h1 class="animate">About me</h1>
-        <p class="animate">Animation</p>
-    </section>
+    <div class="content">
+        <section class="second_section" id="about">
+            <h1 class="animate">About me</h1>
+            <p class="animate">Animation</p>
+        </section>
 
-    <section class="third_section">
-        <h1 class="animate">Experience</h1>
-        <p class="animate">Animation</p>
-    </section>
+        <section class="third_section" id="experience">
+            <h1 class="animate">Experience</h1>
+            <p class="animate">Animation</p>
+        </section>
 
-    <section class="fourth_section">
-        <h1 class="animate">Education</h1>
-        <p class="animate">Animation</p>
-    </section>
+        <section class="fourth_section" id="education">
+            <h1 class="animate">Education</h1>
+            <p class="animate">Animation</p>
+        </section>
 
-    <section class="fifth_section">
-        <h1>Contact Me</h1>
-        <div class="images">
-            <img src="Images/github.png" alt="" class="animate" style="--i:0">
-            <img src="Images/linkedin.png" alt="" class="animate" style="--i:1">
-            <img src="Images/upwork.png" alt="" class="animate" style="--i:2">
-        </div>
-    </section>
+        <section class="fifth_section" id="contact_me">
+            <h1>Contact Me</h1>
+            <div class="images">
+                <a href="https://github.com/godwynCruz"><img src="Images/github.png" alt="" class="animate" style="--i:0" id="github"></a>
+                <a href="https://linkedin.com/in/wyn-cruz-o-o"><img src="Images/linkedin.png" alt="" class="animate" style="--i:1" id="linkedin"></a>
+                <a href="https://www.upwork.com/freelancers/~01f70f6bb61cfbfc29?mp_source=share"><img src="Images/upwork.png" alt="" class="animate" style="--i:2" id="upwork"></a>
+            </div>
+        </section>
+    </div>
+
+    <button id="icon"><img src="Images/moon.png" alt="moon icon"></button>
 
     <script src="app.js"></script>
 </body>
