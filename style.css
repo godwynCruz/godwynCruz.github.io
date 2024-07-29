@@ -115,7 +115,7 @@ section {
     color: #0A0A23;
     background: #ffffff;
     overflow-x: hidden;
-    margin-top: 10vh;
+    padding-top: 10vh;
 }
 
 .dark-theme section {
@@ -204,6 +204,43 @@ section.show_animate .animate {
 
 .third_section.show_animate .animate{
     transform: translateX(0);
+}
+
+.third_section .first_job,
+.third_section .second_job {
+    padding: 3vh;
+    margin: 3vh;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #0A0A23;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dark-theme .third_section .first_job,
+.dark-theme .third_section .second_job {
+    background-color: #1a1818;
+    color: #E0E0E0;
+}
+
+.third_section h2 {
+    font-size: 5.2vh;
+    padding-bottom: 5px;
+}
+
+.third_section p {
+    font-size: 2.9vh;
+}
+
+ul {
+    list-style-type: disc; 
+    padding-left: 50px;
+    padding-right: 20px;
+}
+  
+li {
+    margin: 10px 0; 
+    font-size: 2.3vh;
 }
 
 .fifth_section .images img{
