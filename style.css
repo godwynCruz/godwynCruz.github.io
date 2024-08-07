@@ -163,14 +163,6 @@ section.show_animate .animate {
     transform: translateX(0);
 }
 
-.third_section .animate {
-    transform: translateX(100%);
-}
-
-.third_section.show_animate .animate{
-    transform: translateX(0);
-}
-
 .third_section .first_job,
 .third_section .second_job {
     padding: 3vh;
@@ -204,6 +196,14 @@ ul ul {
 li {
     margin: 10px 0; 
     font-size: 2.3vh;
+}
+
+.third_section .animate {
+    transform: translateX(100%);
+}
+
+.third_section.show_animate .animate{
+    transform: translateX(0);
 }
 
 .fourth_section {
@@ -416,10 +416,91 @@ li {
 }
 
 /* Tablets Portrait */
-@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+        font-size: 8vh;
+    }
 
-/* Tablets Landscape and Small Desktops */
-@media (min-width: 1025px) and (max-width: 1200px) {}
+    .second_section .second_column img {
+        max-width: 70%;
+    }
+
+    .second_section .first_column p {
+        font-size: 2.55vh;
+    }
+
+    .third_section h2 {
+        font-size: 4.5vh;
+    }
+    
+    .third_section p {
+        font-size: 2.6vh;
+    }
+
+    ul {
+        padding-left: 40px;
+        padding-right: 15px;
+    }
+
+    li {
+        font-size: 2.4vh;
+    }
+
+    ul ul {
+        padding-left: 25px;
+    }
+
+    .fourth_section h2 {
+        font-size: 4.2vh;
+    }
+    
+    .fourth_section p {
+        font-size: 2.8vh;
+    }
+}
 
 /* Large Desktops */
-@media (min-width: 1201px) {}
+@media (min-width: 1201px) {
+    .first_section p {
+        margin: 5vh 45vh;
+    }
+
+    .second_section .first_column p {
+        font-size: 3.15vh;
+    }
+
+    .second_section .second_column img {
+        border: #0A0A23 6px solid;
+    }
+    
+    .third_section p {
+        font-size: 3vh;
+    }
+
+    li {
+        font-size: 2.4vh;
+    }
+
+    .third_section .first_job,
+    .third_section .second_job {
+        border-radius: 12px;
+    }
+
+    .fourth_section p {
+        font-size: 2.8vh;
+    }
+
+    ul ul {
+        padding-left: 25px;
+    }
+
+    .fourth_section .first_school,
+    .fourth_section .second_school {
+        border-radius: 12px;
+    }
+
+    .fifth_section .images img{
+        max-width: 12vh;
+        max-height: 12vh;
+    }
+}
