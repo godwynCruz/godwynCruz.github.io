@@ -319,7 +319,7 @@ li {
 
 /* Media Queries*/
 
-/* Mobile Landscape and Small Tablets */
+/* Small mobile */
 @media (max-width: 480px) {
     .navbar {
         display: none;
@@ -422,6 +422,111 @@ li {
         margin: 10px 20px;
     }
 }
+
+/* Medium Mobile */
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar {
+        display: none;
+        height: 0px;
+    }
+
+    .progress_bar {
+        top: 0px;
+    }
+
+    section {
+        padding-top: 0px;
+    }
+
+    h1 {
+        font-size: 5.7vh;
+        text-align: center;
+    }
+
+    .first_section p {
+        font-size: 2.8vh;
+        margin: 2vh 5vh;
+    }
+
+    .second_section {
+        justify-content: center;
+    }
+
+    .second_section .first_column {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .second_section .first_column p {
+        font-size: 2.7vh;
+    }
+
+    .second_section .second_column {
+        display: none;
+    }
+
+    .third_section .first_job,
+    .third_section .second_job {
+        width: 80%;
+    }
+
+    .third_section h2 {
+        font-size: 3.3vh;
+    }
+    
+    .third_section p {
+        font-size: 2.3vh;
+    }
+
+    ul {
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
+    li {
+        font-size: 1.9vh;
+    }
+
+    .fourth_section{
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fourth_section .first_column {
+        text-align: center;
+    }
+
+    .fourth_section .first_column,
+    .fourth_section .second_column {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fourth_section .first_school,
+    .fourth_section .second_school {
+        margin: 3vh 0vh;
+        width: 80%;
+    }
+
+    .fourth_section h2 {
+        font-size: 3.3vh;
+    }
+    
+    .fourth_section p {
+        font-size: 2.3vh;
+    }
+
+    .fifth_section .images img {
+        max-width: 8vh;
+        max-height: 8vh;
+        margin: 10px 20px;
+    }
+}
+
 
 /* Tablets Portrait */
 @media (min-width: 768px) and (max-width: 1023px) {
