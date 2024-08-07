@@ -335,12 +335,12 @@ li {
     }
 
     h1 {
-        font-size: 5.8vh;
+        font-size: 4.9vh;
         text-align: center;
     }
 
-    p {
-        font-size: 4vh;
+    .first_section p {
+        font-size: 2.7vh;
     }
 
     .first_section p {
