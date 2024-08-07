@@ -341,9 +341,6 @@ li {
 
     .first_section p {
         font-size: 2.7vh;
-    }
-
-    .first_section p {
         margin: 2vh 5vh;
     }
 
@@ -362,21 +359,24 @@ li {
 
     .third_section .first_job,
     .third_section .second_job {
-        width: 70%;
+        width: 80%;
     }
 
     .third_section h2 {
-        font-size: 3.6vh;
-        padding-bottom: 5px;
+        font-size: 3.4vh;
     }
     
     .third_section p {
-        font-size: 2.6vh;
+        font-size: 2.4vh;
     }
 
     ul {
         padding-left: 30px;
         padding-right: 10px;
+    }
+
+    li {
+        font-size: 2.0vh;
     }
 
     .fourth_section{
@@ -405,12 +405,11 @@ li {
     }
 
     .fourth_section h2 {
-        font-size: 3.6vh;
-        padding-bottom: 5px;
+        font-size: 3.4vh;
     }
     
     .fourth_section p {
-        font-size: 2.6vh;
+        font-size: 2.4vh;
     }
 
     .fifth_section .images img {
